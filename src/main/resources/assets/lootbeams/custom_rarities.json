@@ -1,0 +1,16 @@
+{
+  "custom_rarities": [
+    {
+      "id": "extras_dorado",
+      "name": "Legendario",
+      "color": "#FFD700",
+      "config": {
+        "render_name_color": false,
+        "render_rarity_color": true
+      },
+      "selectors": [
+        "extras:lanzallamas"
+      ]
+    }
+  ]
+}

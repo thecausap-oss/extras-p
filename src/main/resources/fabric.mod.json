@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "extras",
+  "version": "${version}",
+  "name": "Extras",
+  "description": "Mobs y objetos extra: Charger, Paloma bombardera, Lanzallamas del Pyro, Balon de gas y Totems.",
+  "authors": ["Extras"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.extras.ExtrasMod"],
+    "client": ["com.extras.client.ExtrasClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": ">=4.7"
+  }
+}
